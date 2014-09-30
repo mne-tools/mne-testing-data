@@ -1,0 +1,1 @@
+This is a quad file from FreeSurfer V3.0.
