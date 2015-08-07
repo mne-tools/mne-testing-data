@@ -23,6 +23,6 @@ MaxFilter params: '-frame head -origin 0 20 20 -regularize off -cal off -ctc off
 
 
 test_move_anon_raw_fineCal_sss.fif
-Filter is using simplified params and fine calibration.
+Filter is using simplified params and (1d) fine calibration.
 Data was cropped post hoc (after running MaxFilter) to keep only first second of data because '-skip' param wasn't working.
-MaxFilter params: '-regularize off -ctc off -iterate 0 -hpisubt off -autobad off'
+MaxFilter params: '-regularize off -cal sss_cal_3053.dat -ctc off -iterate 0 -hpisubt off -autobad off'
