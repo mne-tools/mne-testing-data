@@ -37,3 +37,11 @@ test_move_anon_raw_bad_recon_sss.fif
 Filter is using simplified params and 30 random bad channels.
 Data was cropped post hoc (after running MaxFilter) to keep only first second of data because '-skip' param wasn't working.
 MaxFilter params: '-regularize off -cal off -ctc off -iterate 0 -hpisubt off -autobad off -force -bad 0912 1722 2213 0132 1312 0432 2433 1022 0442 2332 0633 1043 1713 0422 0932 1622 1343 0943 0643 0143 2142 0813 2143 1323 0522 1123 0423 2122 2532 0812'
+
+test_move_anon_raw.pos
+MaxFilter was run with these parameters:
+maxfilter -headpos -hp test_move_anon_raw.pos -f test_move_anon_raw.fif -v -autobad off
+The test_move_anon_raw_quat.fif file was deleted. 
+
+test_move_anon_raw_subsampled.pos
+This file was made by subsampling test_move_anon_raw.pos both to make simulation more efficient, and to remove the last seven rows of the .pos file that belonged to times outside the valid range of the raw file ("26.060, 26.080, 26.090, 26.100, 26.110, 26.120, 26.140").
