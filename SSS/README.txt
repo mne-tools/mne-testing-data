@@ -2,7 +2,7 @@ Using Elekta MaxFilter version 2.2
 
 
 test_move_anon_raw.fif
-Raw data, but magnetometers with channel type '3022' were force to be T3 with channel type '3024' and then raw file was resaved.
+Raw data anonymized using `.anonymize()`, and magnetometers with channel type '3022' or '3023' were force to be T3 with channel type '3024'.
 This file is the unprocessed version of all subsequent fif files.
 
 
@@ -28,9 +28,20 @@ Data was cropped post hoc (after running MaxFilter) to keep only first second of
 MaxFilter params: '-regularize off -cal sss_cal_3053.dat -ctc off -iterate 0 -hpisubt off -autobad off'
 
 
-test_move_anon_raw_spatiotemporal_sss.fif
+test_move_anon_raw_spatiotemporal_4s_sss.fif
+Filter is using simplified params and spatiotemporal filtering (tSSS) with a 4 second buffer. MaxFilter has an irregularity in 
+how it processes the last window of data if that buffer is less than the specified duration. Sometimes it will process it
+separately, and sometimes it will lump it onto the previous window. For the 17 sec data, Elekta's tSSS uses the 4s window to
+break the data into 4s, 4s, 4s, 4s, 5s chunks. I.e., it DID lump the tail window into the previous data.
+MaxFilter params: '-regularize off -cal off -ctc off -iterate 0 -hpisubt off -autobad off -st 4'
+
+
+test_move_anon_raw_spatiotemporal_10s_sss.fif
 Filter is using simplified params and spatiotemporal filtering (tSSS) with a 10 second buffer (default in MaxFilter v2.2).
-MaxFilter params: '-regularize off -cal off -ctc off -iterate 0 -hpisubt off -autobad off -st'
+MaxFilter has an irregularity in how it processes the last window of data if that buffer is less than the specified duration as
+noted above. For the 17 sec data, Elekta's tSSS uses the 10s window to break the data into 10s and 7s chunks. I.e., it DID NOT 
+lump the tail window into the previous data.To get around this, this file was cropped to 10s prior to Elekta's tSSS processing. 
+MaxFilter params: '-regularize off -cal off -ctc off -iterate 0 -hpisubt off -autobad off -st 10'
 
 
 test_move_anon_raw_bad_recon_sss.fif
