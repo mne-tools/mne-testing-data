@@ -1,0 +1,17 @@
+
+// Data selector parameters.
+// 10:35  13/04/2000
+
+DsSelector
+{
+	RejectBadTrials:	True
+	ForceEvenNumTargets:	True
+	MaximuOverlap:	0
+	StartTime:	-50m
+	EndTime:	200m
+	WholeTrial:	False
+	CondSearchStart:	0
+	CondSearchEnd:	0
+	TargetTrialOffset:	0
+	TargetMarker:	Tr18
+}

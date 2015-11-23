@@ -1,0 +1,15 @@
+// 
+// These parameters will appear in the new dataset.
+// 
+NewDatasetFields
+{
+	site:	MEG Salpetriere Paris
+	system:	systemLabel
+	institute:	Paris
+	protocol:	catchingMEGEEG.rp
+	purpose:	
+	coefsName:	/usr/ctf/hardware/M3033_606.coef
+	sensName:	/usr/ctf/hardware/M3033_606.sens
+	appName:	Acq vv4.11.2a ( Jul 15 1999 )
+	bandwidth:	0.000000, 200.000000
+}

@@ -1,0 +1,17 @@
+// 
+// These parameters will appear in the new dataset.
+// 
+NewDatasetFields
+{
+	site:	
+	system:	DSQ-2010
+	institute:	
+	protocol:	default.rp
+	purpose:	
+	keywords:	
+	coefsName:	/opt/ctf/hardware/M043/M043_4304.coef
+	sensName:	/opt/ctf/hardware/M043/M043_4304.sens
+	appName:	Acq 5.4.2-linux-20070507
+	systemType:	cmeg
+	bandwidth:	0.000000, 300.000000
+}
