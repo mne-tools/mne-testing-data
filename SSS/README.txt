@@ -104,3 +104,6 @@ test_move_anon_erm_st1FineCalCrossTalkRegIn_raw_sss.fif
 test_move_anon_movecomp_raw_sss.fif
 -origin 0 0 40 -frame head -regularize off -cal off -ctc off -iterate 0 -movecomp inter -hpisubt off -autobad off
 
+test_move_anon_movecomp_regIn_raw_sss.fif
+-origin 0 0 40 -frame head -regularize in -cal off -ctc off -iterate 0 -movecomp inter -hpisubt off -autobad off
+
