@@ -107,3 +107,9 @@ test_move_anon_movecomp_raw_sss.fif
 test_move_anon_movecomp_regIn_raw_sss.fif
 -origin 0 0 40 -frame head -regularize in -cal off -ctc off -iterate 0 -movecomp inter -hpisubt off -autobad off
 
+test_move_anon_movecomp_regIn_st2_raw_sss.fif
+-origin 0 0 40 -frame head -movecomp inter -st 2 -autobad off -hpisubt off -ctc off -cal off -regularize in -iterate 0 -v
+
+test_move_anon_hpisubt_raw.fif
+maxfilter -f test_move_anon_raw.fif -o test_move_anon_hpisubt_raw.fif -headpos -ctc off -cal off -v
+
