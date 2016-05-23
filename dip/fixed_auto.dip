@@ -1,0 +1,2 @@
+#	begin/ms	end/ms	x/mm	y/mm	z/mm	dist/mm	r/mm	th/deg	phi/deg	Q/nAm	Qx/nAm	Qy/nAm	Qz/nAm	g/%	khi^2	free	prob	vol/mm^3	depth/mm	long/mm	trans/mm	Qlong/nAm	Qtrans/nAm	noise/fT/cm
+  491.4	491.4	-50.6	9.1	39.1	50.4	64.6	52.8	169.8	12.1	2.1	11.6	2.5	56.5	153.01	296	1	2286.5	8.2	7.6	3.3	4.9	1.6	3.5	
