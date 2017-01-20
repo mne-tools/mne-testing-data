@@ -122,10 +122,8 @@ recording. maxfilter has problems to estimate the correct head position three
 seconds before the end of the file (check the maxfilter pos-file or the transformed
 MEG data).
 
-chpi5_raw_mc.fif
 chpi5_raw_mc.pos
-chpi5_raw_mc.log
-output files of maxfilter where maxfilter was called with these command line:
+output head position file of maxfilter using this command line:
 > maxfilter -gui -f chpi5_raw.fif -o chpi5_raw_mc.fif -origin 1.7 13.1 64.6 -hp chpi5_raw_mc.pos -trans chpi5_raw.fif -bad 0243 0713 1811 2631 -frame head -in 8 -out 3 -ctc /neuro/databases/ctc/ct_sparse.fif -cal /neuro/databases/sss/sss_cal.dat -movecomp inter -hpistep 1000 -hpiwin 1000 -hpicons -linefreq 50 -force >chpi5_raw_mc.log 2>&1
 > maxfilter --version
 $Revision: 2.2.15 Neuromag maxfilter Dec 11 2012 14:48:44 $
