@@ -113,3 +113,21 @@ test_move_anon_movecomp_regIn_st2_raw_sss.fif
 test_move_anon_hpisubt_raw.fif
 maxfilter -f test_move_anon_raw.fif -o test_move_anon_hpisubt_raw.fif -headpos -ctc off -cal off -v
 
+chpi5_raw.fif 
+Is a part of real MEG measurement with a human subject at MPI-CBS in Leipzig. 
+The data is artificial because it combines the first two seconds of the real
+measurement with a cropped fraction from 95. to 110. seconds (crop ignores the
+raw.first_samp). The head of the subject moves slightly during this part of the
+recording. maxfilter has problems to estimate the correct head position three
+seconds before the end of the file (check the maxfilter pos-file or the transformed
+MEG data).
+
+chpi5_raw_mc.fif
+chpi5_raw_mc.pos
+chpi5_raw_mc.log
+output files of maxfilter where maxfilter was called with these command line:
+> maxfilter -gui -f chpi5_raw.fif -o chpi5_raw_mc.fif -origin 1.7 13.1 64.6 -hp chpi5_raw_mc.pos -trans chpi5_raw.fif -bad 0243 0713 1811 2631 -frame head -in 8 -out 3 -ctc /neuro/databases/ctc/ct_sparse.fif -cal /neuro/databases/sss/sss_cal.dat -movecomp inter -hpistep 1000 -hpiwin 1000 -hpicons -linefreq 50 -force >chpi5_raw_mc.log 2>&1
+> maxfilter --version
+$Revision: 2.2.15 Neuromag maxfilter Dec 11 2012 14:48:44 $
+
+
