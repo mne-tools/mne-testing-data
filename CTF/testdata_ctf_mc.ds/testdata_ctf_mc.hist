@@ -1,0 +1,87 @@
+************************************************************
+DATE:
+04-Apr-2017 13:53
+
+OPERATOR:
+meg
+
+APP:
+Acq 5.4.2-linux-20070507
+
+Dataset name 123_CurrentPhantom_20170404_06
+Operator: CHOP
+Title: phantom test
+Procedure  step description: dipole at 0,0,5.1
+Keywords: 
+Sample rate: 12000
+Trial duration: 5
+Pre-trigger interval: 0
+
+Collection stopped: 04-Apr-2017 13:54
+
+Collection started: 04-Apr-2017 13:54
+
+Collection stopped: 04-Apr-2017 13:54
+
+
+SUMMARY:
+Maximum head motion recorded is 19.6686(mm).
+
+************************************************************
+DATE:
+14-Apr-2017 11:16
+
+OPERATOR:
+meg
+
+APP:
+newDs 5.4.0-linux-20061212
+
+newDs -resample 10 -includeBadChannels -includeBadSegments 123_CurrentPhantom_20170404_06.ds testdata_ctf_mc.ds
+
+Input datasets: 123_CurrentPhantom_20170404_06.ds
+Save results as: testdata_ctf_mc.ds
+Exclude non-SAM virtual channels.
+Viewing filter parameters will NOT be applied.
+Resaving whole trial.
+Overlap tolerance (sec): 0
+Event range: all target events.
+
+// Head Localization parameters.
+// 14-Apr-2017 11:16
+
+CustomDs
+{
+	FixSensors:	False
+}
+
+// PROCESSING PARAMETERS
+processing
+{
+	// balance: order, adapted
+	// (adapted=0 -> not adapted)
+	// (adapted=1 -> adapted)
+	balance:	3,0
+}
+
+// Data selector parameters.
+DsSelector
+{
+	RejectBadTrials:	TRUE
+	ForceEvenNumTargets:	FALSE
+	MaximumOverlap:	0
+	StartTime:	-0
+	EndTime:	5
+	EventRange:	ALL
+	WholeTrial:	TRUE
+	CondSearchStart:	0
+	CondSearchEnd:	0
+	TargetTrialOffset:	0
+}
+
+
+RESULTS:
+Number of events/trials in new dataset = 1
+
+Maximum head movement: 19.7 mm at trial 1 at sample 5969 for head coil Re
+Dataset's motion tolerance is 100.0mm

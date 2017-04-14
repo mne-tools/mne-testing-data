@@ -1,0 +1,62 @@
+PATH OF DATASET:
+/home/meg/lbTest/testdata_ctf_mc.ds
+
+
+NUMBER OF MARKERS:
+1
+
+
+CLASSGROUPID:
+3
+NAME:
+HDAC006
+COMMENT:
+Trigger Marker corresponding to HDAC006 (CondBitPattern=0x4, CondBitMask=0x4, Flag0to1Only=1,MinStableLength=0,TransientSearchMask=0)
+COLOR:
+red
+EDITABLE:
+Yes
+CLASSID:
+1
+NUMBER OF SAMPLES:
+36
+LIST OF SAMPLES:
+TRIAL NUMBER		TIME FROM SYNC POINT (in seconds)
+                   0				                  +0
+                   0				             +0.1425
+                   0				              +0.285
+                   0				     +0.428333333333
+                   0				     +0.570833333333
+                   0				     +0.714166666667
+                   0				     +0.856666666667
+                   0				     +0.999166666667
+                   0				             +1.1425
+                   0				              +1.285
+                   0				             +1.4275
+                   0				      +1.57083333333
+                   0				      +1.71333333333
+                   0				      +1.85666666667
+                   0				      +1.99916666667
+                   0				      +2.14166666667
+                   0				              +2.285
+                   0				             +2.4275
+                   0				      +2.57083333333
+                   0				      +2.71333333333
+                   0				      +2.85583333333
+                   0				      +2.99916666667
+                   0				      +3.14166666667
+                   0				      +3.28416666667
+                   0				             +3.4275
+                   0				               +3.57
+                   0				      +3.71333333333
+                   0				      +3.85583333333
+                   0				      +3.99833333333
+                   0				      +4.14166666667
+                   0				      +4.28416666667
+                   0				      +4.42666666667
+                   0				               +4.57
+                   0				             +4.7125
+                   0				      +4.85583333333
+                   0				      +4.99833333333
+
+
