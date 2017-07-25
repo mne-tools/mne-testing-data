@@ -1,0 +1,17 @@
+#
+# Patient unknown.
+# sample_audvis-ave.fif (Left Auditory>average)  Acq date: 12/03/02 14:01:10
+# Acq. band: 0.10 ... 40.0 Hz  Sampling: 600.6 Hz
+# User: Eric Larson (larsoner)
+# nave = 55 Digital filter: off Baseline: -200.0...0.0 ms
+# Bad: 2443 
+# No ignored channels. 
+# Sphere model, head origin : (0.0,0.0,40.0) mm
+# Head position fit was accepted.
+# Coil 1 used=1, g=0.988, err=0.9 mm, fit: (-69.2, 68.2, 68.9), dig: (-70.0, 67.7, 68.9)
+# Coil 2 used=0, g=0.985, err=5.5 mm, fit: ( 54.7, -7.4,120.1), dig: ( 50.0, -7.2,122.9)
+# Coil 3 used=1, g=0.995, err=1.7 mm, fit: (-73.6,-22.2, 97.4), dig: (-72.6,-20.9, 97.1)
+# Coil 4 used=1, g=0.991, err=1.0 mm, fit: ( 33.2, 99.9, 79.6), dig: ( 32.9, 99.0, 79.8)
+#
+# begin/ms end/ms  x/mm    y/mm    z/mm    Q/nAm    Qx/nAm   Qy/nAm   Qz/nAm   g/%     khi^2   free prob    vol/mm^3  depth/mm  long/mm   trans/mm  Qlong/nAm  Qtrans/nAm noise/fT/cm
+  80.0     80.0    51.6    15.7    70.3    56.8     30.0     -35.5    -32.7    76.5    4646.54 300  0       2.4       0.8       0.7       0.3       2.3        0.9        3.4    
