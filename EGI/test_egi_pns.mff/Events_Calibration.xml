@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<eventTrack xmlns="http://www.egi.com/event_mff" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<name>Calibration</name>
+<trackType>STIM</trackType>
+<event>    <beginTime>2017-09-20T09:55:45.169000000+01:00</beginTime>    <duration>1000000</duration>    <code>sync</code>    <label>Amp time</label>    <description>112171</description>    <sourceDevice>Amp time</sourceDevice></event></eventTrack>
