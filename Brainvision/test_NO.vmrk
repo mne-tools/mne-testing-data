@@ -1,0 +1,8 @@
+﻿Brain Vision Data Exchange Marker File Version 1.0
+; NeurOne 24-bit data format to GDR format conversion. Copyright Mega Electronics Ltd
+
+[Common infos]
+Codepage=UTF-8
+DataFile=shortrecording2.eeg
+[Marker infos]
+Mk1=New Segment,,1,1,0,00000000000000000000
