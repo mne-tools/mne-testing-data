@@ -26,11 +26,20 @@ Add or change files in the repo for use with MNE
 
 3. Update the `version.txt` of the repo in your PR to the next increment.
 
-4. Once your PR is merged, ask a maintainer to cut a new release of the testing data.
+4. Once your PR is merged, ask a maintainer to cut a new release of the testing data, e.g. 0.53.
 
 5. In MNE, update `mne/datasets/utils.py` to:
 
-   1. Change the `mne-testing-data` release tag to the new version.
+   1. Change the `'testing'` value in the `releases` dict in `mne/datasets/utils.py` to the new version.
 
-   2. Set the new hash. This can be done e.g. by force updating the repo and looking
-      at the error message, as it gives the new true hash.
+   2. Set the new hash. This can be easily done by either:
+   
+      1. Downloading and running `md5sum` on this (with the proper version number):
+
+          https://codeload.github.com/mne-tools/mne-testing-data/tar.gz/0.53
+
+         or
+
+      2. Force-updating the repo and looking at the error message (as it gives the new true hash), e.g.:
+
+             $ python -c "import mne; mne.datasets.testing.data_path(force_update=True)
