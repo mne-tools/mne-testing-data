@@ -42,4 +42,4 @@ Add or change files in the repo for use with MNE
 
       2. Force-updating the repo and looking at the error message (as it gives the new true hash), e.g.:
 
-             $ python -c "import mne; mne.datasets.testing.data_path(force_update=True)
+             $ python -c "import mne; mne.datasets.testing.data_path(force_update=True)"
