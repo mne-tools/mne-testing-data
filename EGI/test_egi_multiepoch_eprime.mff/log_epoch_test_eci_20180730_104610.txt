@@ -1,0 +1,259 @@
+00:00:00.005.511: ENOLISController.mm:800 ENOLISController:getAmpStartTime: time 1532961952125673 - old time 1532961951750436 = 0.375237 seconds, ampID 0
+00:00:00.005.601: --- EEG START RECORDING ---------------------------------------------------------------------------------
+00:00:00.005.633:          Name: epoch_test_eci_20180730_104610.mff
+00:00:00.005.972:          Date: 2018-07-30 10:46:09.621673 AM EDT, unix 1532961969, micro 1532961969621673
+00:00:00.006.011:   Acquisition: 5.4 (r26619)
+00:00:00.006.033:      Mac OS X: 10.12.5 (16F73)
+00:00:00.006.061:         Model: iMac14,2
+00:00:00.006.088:           GHz: 3.20
+00:00:00.006.106:  # Processors: 4
+00:00:00.006.127:        Memory: 8.00 GB
+00:00:00.006.152:           MFF: 3
+00:00:00.006.181:  Amp Serial #: A15530484
+00:00:00.006.198:      Amp Type: NA400
+00:00:00.006.215:  Amp Firmware: 1.6.23
+00:00:00.006.232:  Amp Channels: 256
+00:00:00.006.248:  Legacy Board: false
+00:00:00.006.284: Sensor Layout: HydroCel GSN 256 1.0
+00:00:00.006.324: Sampling Rate: 250 s/s
+00:00:00.006.342:         Video: None
+00:00:00.006.357:         Audio: None
+00:00:00.006.377: ---------------------------------------------------------------------------------------------------------
+00:00:00.006.954: NSAToolbarDelegate.m:798 NSAToolbarDelegate:updateInterface _onOff YES, _recordButton YES, _stopButton YES,
+00:00:00.007.069: NSARecording.m:311 NSARecording:initAtPath:createIfNotFound:nsaController:startDate: signal blocks 0
+00:00:00.007.116: NSARecording.m:319 NSARecording:initAtPath:createIfNotFound:nsaController:startDate: xml 0
+00:00:00.007.156: ENOLISController.mm:960 ENOLISController:getAmpDetails: 
+00:00:00.012.105: NSARecording.m:336 NSARecording:initAtPath:createIfNotFound:nsaController:startDate: EEG shift: 112 ms - PNS shift: 80 ms = 32 ms
+00:00:00.012.169: NSARecording.m:337 NSARecording:initAtPath:createIfNotFound:nsaController:startDate: EEG shift: 28 samples - PNS shift: 20 samples = 8 samples
+00:00:00.012.210: NSARecording.m:356 NSARecording:initAtPath:createIfNotFound:nsaController:startDate: /Users/EGI/Documents/Net Station User Data/Sessions/epoch_test_eci_20180730_104610.mff
+00:00:00.036.712: NSARecording.m:2066 NSARecording:writeInfo_EEG 
+00:00:00.036.800: NSARecording.m:2153 NSARecording:appendCallibrations:ofType:withTimes:to: GCAL 1 00:00:00.000
+00:00:00.037.383: NSARecording.m:2509 NSARecording:copySensorlayoutFile 
+00:00:00.037.423: NSARecording.m:2547 NSARecording:copyCoordinatesFile 
+00:00:00.037.420: NSARecording.m:2105 NSARecording:writeInfo_EEG
+00:00:00.037.664: NSARecording.m:3039 NSARecording:writeTRsPerVolume None
+00:00:00.037.704: NSARecording.m:3100 NSARecording:writeAcquiringXML 
+00:00:00.038.509: NSARecording.m:2520 NSARecording:copySensorlayoutFile
+00:00:00.041.305: NSARecording.m:2564 NSARecording:copySensorlayoutFile
+00:00:00.042.272: NSARecording.m:2367 NSARecording:writePatientInfo
+00:00:00.042.719: NSARecording.m:2446 NSARecording:writeTechNote RTF
+00:00:00.043.186: PLTECICommandDelegate.mm:120 time 1532961952125673 - old time 0 = 1532961952.125673 seconds
+00:00:00.043.254: PLTECICommandDelegate.mm:136 ampStartTime_micro_ 1532961952125673
+00:00:00.043.256: NSARecording.m:3113 NSARecording:writeAcquiringXML
+00:00:00.043.285: PLTECICommandDelegate.mm:120 time 1532961952125673 - old time 0 = 1532961952.125673 seconds
+00:00:00.043.349: PLTECICommandDelegate.mm:136 ampStartTime_micro_ 1532961952125673
+00:00:00.043.381: PLTECICommandDelegate.mm:120 time 1532961952125673 - old time 0 = 1532961952.125673 seconds
+00:00:00.043.416: PLTECICommandDelegate.mm:136 ampStartTime_micro_ 1532961952125673
+00:00:00.043.458: PLTECICommandDelegate.mm:120 time 1532961952125673 - old time 0 = 1532961952.125673 seconds
+00:00:00.043.492: PLTECICommandDelegate.mm:136 ampStartTime_micro_ 1532961952125673
+00:00:00.142.925: EAmpController.m:2220 EAmpController:currentSampleDate currentSampleDate 2018-07-30 14:46:09 +0000, sampleCount_ 17496 - currentAmpTime 4411 = 13085
+00:00:00.143.021: PLTRecord.m:1851 PLTRecord:sampleData:sampleCount: 
+00:00:00.143.057: 
+00:00:00.143.076: Sample Provider timing info
+00:00:00.143.094:      Reference Date: 1 January 1970, GMT
+00:00:00.143.110:      Amp Start Time: 1532961952125673
+00:00:00.143.156:      Amp Start Date: 2018-07-30 10:45:52.125673 AM EDT
+00:00:00.143.188: Current Sample Date: 2018-07-30 10:46:09.621673 AM EDT
+00:00:00.143.207:      Stream Up Time: 17.496000 seconds
+00:00:00.143.223: 
+00:00:00.151.282: EAmpController.m:2220 EAmpController:currentSampleDate currentSampleDate 2018-07-30 14:46:09 +0000, sampleCount_ 17496 - currentAmpTime 4413 = 13083
+00:00:00.155.412: NSARecording.m:737 NSARecording:writeSampleData:sampleCount: 
+00:00:00.155.471: NSARECORDING first sample received
+00:00:00.155.506:        stream uptime 17.496000
+00:00:00.155.572: recording _startDate 2018-07-30 10:46:09.621673 AM EDT, epoch 1532961969, micro 1532961969621673
+00:00:00.155.605:   stream sample date 2018-07-30 10:46:09.621673 AM EDT
+00:00:00.155.648:                 diff 0.000000
+00:00:00.155.669:   _end_ns (191239883748) - _start_ns (191115883748) = 124000000, sampleCount 31
+00:00:00.155.731: NSARecording.m:1958 NSARecording:writeInfo 
+00:00:00.155.945: ENOLISController.mm:960 ENOLISController:getAmpDetails: 
+00:00:00.161.106: NSARecording.m:810 NSARecording:writeSampleData:sampleCount: EEG shift: Remove 28 samples from epoch 1
+00:00:00.161.151: NSARecording.m:1986 NSARecording:writeInfo
+00:00:00.161.192: NSARecording.m:827 NSARecording:writeSampleData:sampleCount: _firstSampleWritten = YES
+00:00:00.161.427: PLTRecord.m:1015 PLTRecord:firstSample: 
+00:00:00.161.484: PLTECIServer.mm:227 PLTECIServer:beginRecording_TRUE: number.intValue 55513, _portNumber 55513
+00:00:00.161.531: PLTECICommandDelegate.mm:808 _state = 0
+00:00:00.161.557: PLTECIServer.mm:227 PLTECIServer:beginRecording_TRUE: number.intValue 55513, _portNumber 55514
+00:00:00.161.556: PLTECICommandDelegate.mm:278 00:00:00.161.602: PLTECIServer.mm:227 PLTECIServer:beginRecording_TRUE: 'B' eci_BeginRecording ack
+number.intValue 55513, _portNumber 55515
+00:00:00.161.632: PLTECIServer.mm:227 PLTECIServer:beginRecording_TRUE: number.intValue 55513, _portNumber 55516
+00:00:00.164.686: PLTECICommandDelegate.mm:321 'A' eci_Attention ack
+00:00:00.166.075: PLTECIEvents.m:537 PLTECIEvents:attention: eci_Attention
+00:00:00.167.289: PLTECICommandDelegate.mm:382 'N' eci_NTPClockSynch
+00:00:00.171.224: PLTECICommandDelegate.mm:403 ntp clock sync seconds 3741950757, partsOfASecond 1018267904
+00:00:00.171.328: PLTECICommandDelegate.mm:408 eciStartTime_micro_ 1532961957237083 - ampStartTime_micro_ 1532961952125673 = _clockDiff_micro 5111410
+00:00:00.171.370: PLTECICommandDelegate.mm:412 date eci 2018-07-30 10:45:57 +0000 - date amp 2018-07-30 10:45:52 +0000 = 5.111410
+00:00:00.171.452: PLTECICommandDelegate.mm:425 'N' eci_NTPClockSynch ack
+00:00:00.171.559: PLTECIEvents.m:567 PLTECIEvents:ntpClockSync: eci_NTPClockSynch: seconds 3741950757, partsOfASecond 1018267904, eciStartTime_micro_ 1532961957237083 - ampStartTime_micro_ 1532961952125673 = _clockDiff_micro 5111410
+00:00:00.214.171: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:10.499083-04:00, baseTime 1532961957237083, ms_offset 13262, secondsFromGMT_ -14400
+00:00:00.214.358: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:00.214.647: PLTECIEvents.m:840 PLTECIEvents:eventData: 13262000 + 5111410 = 18373410: SESS 18,373
+00:00:00.214.983: [1] Event: 00:00:00.877, SESS, ECI TCP-IP 55513, 00:00:18.485.410
+00:00:00.221.704: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:10.548083-04:00, baseTime 1532961957237083, ms_offset 13311, secondsFromGMT_ -14400
+00:00:00.221.791: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:00.221.999: PLTECIEvents.m:840 PLTECIEvents:eventData: 13311000 + 5111410 = 18422410: CELL 18,422
+00:00:00.222.162: [1] Event: 00:00:00.926, CELL, ECI TCP-IP 55513, 00:00:00.049.000
+00:00:00.227.067: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:10.553083-04:00, baseTime 1532961957237083, ms_offset 13316, secondsFromGMT_ -14400
+00:00:00.227.129: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:00.227.301: PLTECIEvents.m:840 PLTECIEvents:eventData: 13316000 + 5111410 = 18427410: CELL 18,427
+00:00:00.227.436: [1] Event: 00:00:00.931, CELL, ECI TCP-IP 55513, 00:00:00.005.000
+00:00:00.233.190: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:10.558083-04:00, baseTime 1532961957237083, ms_offset 13321, secondsFromGMT_ -14400
+00:00:00.233.243: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:00.233.383: PLTECIEvents.m:840 PLTECIEvents:eventData: 13321000 + 5111410 = 18432410: CELL 18,432
+00:00:00.233.498: [1] Event: 00:00:00.936, CELL, ECI TCP-IP 55513, 00:00:00.005.000
+00:00:00.238.670: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:10.565083-04:00, baseTime 1532961957237083, ms_offset 13328, secondsFromGMT_ -14400
+00:00:00.238.731: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:00.238.916: PLTECIEvents.m:840 PLTECIEvents:eventData: 13328000 + 5111410 = 18439410: CELL 18,439
+00:00:00.239.044: [1] Event: 00:00:00.943, CELL, ECI TCP-IP 55513, 00:00:00.007.000
+00:00:00.244.045: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:10.570083-04:00, baseTime 1532961957237083, ms_offset 13333, secondsFromGMT_ -14400
+00:00:00.244.103: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:00.244.248: PLTECIEvents.m:840 PLTECIEvents:eventData: 13333000 + 5111410 = 18444410: CELL 18,444
+00:00:00.244.368: [1] Event: 00:00:00.948, CELL, ECI TCP-IP 55513, 00:00:00.005.000
+00:00:00.985.192: NSAEvent2.m:282 NSAImageParent:initWithImage: assr-am
+00:00:01.035.075: NSAEvent2.m:282 NSAImageParent:initWithImage: TARG
+00:00:01.051.695: NSAEvent2.m:282 NSAImageParent:initWithImage: AM30
+00:00:01.052.032: NSAEvent2.m:282 NSAImageParent:initWithImage: AM40
+00:00:01.052.344: NSAEvent2.m:282 NSAImageParent:initWithImage: AM50
+00:00:01.068.471: NSAEvent2.m:282 NSAImageParent:initWithImage: SWEP
+00:00:01.345.281: PLTECICommandDelegate.mm:290 'E' eci_EndRecording
+00:00:01.345.436: PLTECIEvents.m:499 PLTECIEvents:endRecording: eci_EndRecording
+00:00:01.345.497: PLTRecord.m:293 PLTRecord:recordNotification: 
+00:00:01.345.525: PLTRecord.m:324 PLTRecord:record: PLTRecord_recording
+00:00:01.345.555: EEG PAUSE RECORDING
+00:00:01.345.575: EEG HANDLE PAUSE RECORDING
+00:00:01.345.689: NSAToolbarDelegate.m:798 NSAToolbarDelegate:updateInterface _onOff YES, _recordButton YES, _stopButton YES,
+00:00:01.345.754: NSARecording.m:1428 NSARecording:appendFlatlinedSamples EEG shift: Append 28 flatlined samples to epoch 1
+00:00:01.346.045: NSARecording.m:3001 NSARecording:writeEpoch #1, beginTime: 0, endTime: 1344000, firstBlock: 1, lastBlock: 1
+00:00:01.349.043: PLTECIServer.mm:258 PLTECIServer:endRecording_TRUE: number.intValue 55513, _portNumber 55513
+00:00:01.349.126: PLTECICommandDelegate.mm:808 _state = 0
+00:00:01.349.158: PLTECIServer.mm:258 PLTECIServer:endRecording_TRUE: number.intValue 55513, _portNumber 55514
+00:00:01.349.158: PLTECICommandDelegate.mm:306 00:00:01.349.204: PLTECIServer.mm:258 PLTECIServer:endRecording_TRUE: 'E' eci_EndRecording ack
+number.intValue 55513, _portNumber 55515
+00:00:01.349.302: PLTECIServer.mm:258 PLTECIServer:endRecording_TRUE: number.intValue 55513, _portNumber 55516
+00:00:01.806.786: PLTECICommandDelegate.mm:262 'B' eci_BeginRecording, ms 19300, upTime 4829
+00:00:01.813.936: PLTECIEvents.m:482 PLTECIEvents:beginRecording: eci_BeginRecording: _clockDiff_micro 5111410
+00:00:01.814.012: PLTRecord.m:293 PLTRecord:recordNotification: 
+00:00:01.814.038: PLTRecord.m:324 PLTRecord:record: PLTRecord_paused
+00:00:01.814.068: EEG RESUME RECORDING
+00:00:01.814.114: PLTRecord.m:1391 PLTRecord:resumeRecording spSampleCount 19300 - _spSampleCount_last 18840 = 460, _spSampleCount_pause 460
+00:00:01.814.374: NSAToolbarDelegate.m:798 NSAToolbarDelegate:updateInterface _onOff YES, _recordButton YES, _stopButton YES,
+00:00:01.816.917: NSARecording.m:798 NSARecording:writeSampleData:sampleCount: EEG shift: Drop all 3 samples from epoch 2
+00:00:01.891.759: NSARecording.m:798 NSARecording:writeSampleData:sampleCount: EEG shift: Drop all 19 samples from epoch 2
+00:00:01.895.560: NSARecording.m:798 NSARecording:writeSampleData:sampleCount: EEG shift: Drop all 1 samples from epoch 2
+00:00:01.898.547: NSARecording.m:798 NSARecording:writeSampleData:sampleCount: EEG shift: Drop all 2 samples from epoch 2
+00:00:01.910.571: NSARecording.m:798 NSARecording:writeSampleData:sampleCount: EEG shift: Drop all 3 samples from epoch 2
+00:00:01.915.600: NSARecording.m:827 NSARecording:writeSampleData:sampleCount: _firstSampleWritten = YES
+00:00:01.915.745: PLTRecord.m:1015 PLTRecord:firstSample: 
+00:00:01.915.791: PLTECIServer.mm:227 PLTECIServer:beginRecording_TRUE: number.intValue 55513, _portNumber 55513
+00:00:01.915.821: PLTECICommandDelegate.mm:808 _state = 0
+00:00:01.915.849: PLTECIServer.mm:227 PLTECIServer:beginRecording_TRUE: number.intValue 55513, _portNumber 55514
+00:00:01.915.851: PLTECICommandDelegate.mm:278 00:00:01.915.877: PLTECIServer.mm:227 PLTECIServer:beginRecording_TRUE: 'B' eci_BeginRecording ack
+number.intValue 55513, _portNumber 55515
+00:00:01.915.906: PLTECIServer.mm:227 PLTECIServer:beginRecording_TRUE: number.intValue 55513, _portNumber 55516
+00:00:04.276.635: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:14.524083-04:00, baseTime 1532961957237083, ms_offset 17287, secondsFromGMT_ -14400
+00:00:04.276.734: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:04.276.977: PLTECIEvents.m:840 PLTECIEvents:eventData: 17287000 + 5111410 = 22398410: bgin 22,398
+00:00:04.277.122: [2] Event: 00:00:04.902, bgin, ECI TCP-IP 55513, 00:00:03.954.000
+00:00:05.021.376: NSAEvent2.m:282 NSAImageParent:initWithImage: bgin
+00:00:06.542.941: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:14.672083-04:00, baseTime 1532961957237083, ms_offset 17435, secondsFromGMT_ -14400
+00:00:06.543.030: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:06.543.301: PLTECIEvents.m:840 PLTECIEvents:eventData: 17435000 + 5111410 = 22546410: FIX+ 22,546
+00:00:06.543.842: NSAEvent2.m:282 NSAImageParent:initWithImage: FIX+
+00:00:06.544.255: [2] Event: 00:00:05.050, FIX+, ECI TCP-IP 55513, 00:00:00.148.000
+00:00:06.547.455: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:15.671083-04:00, baseTime 1532961957237083, ms_offset 18434, secondsFromGMT_ -14400
+00:00:06.547.510: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:06.547.675: PLTECIEvents.m:840 PLTECIEvents:eventData: 18434000 + 5111410 = 23545410: AM40 23,545
+00:00:06.548.092: [2] Event: 00:00:06.049, AM40, ECI TCP-IP 55513, 00:00:00.999.000
+00:00:06.554.619: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:16.807083-04:00, baseTime 1532961957237083, ms_offset 19570, secondsFromGMT_ -14400
+00:00:06.554.720: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:06.554.916: PLTECIEvents.m:840 PLTECIEvents:eventData: 19570000 + 5111410 = 24681410: ITI+ 24,681
+00:00:06.555.042: [2] Event: 00:00:07.185, ITI+, ECI TCP-IP 55513, 00:00:01.136.000
+00:00:06.678.594: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:17.003083-04:00, baseTime 1532961957237083, ms_offset 19766, secondsFromGMT_ -14400
+00:00:06.678.709: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:06.678.975: PLTECIEvents.m:840 PLTECIEvents:eventData: 19766000 + 5111410 = 24877410: bgin 24,877
+00:00:06.679.119: [2] Event: 00:00:07.381, bgin, ECI TCP-IP 55513, 00:00:00.196.000
+00:00:09.082.989: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:17.057083-04:00, baseTime 1532961957237083, ms_offset 19820, secondsFromGMT_ -14400
+00:00:09.083.096: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:09.083.292: PLTECIEvents.m:840 PLTECIEvents:eventData: 19820000 + 5111410 = 24931410: FIX+ 24,931
+00:00:09.083.768: [2] Event: 00:00:07.435, FIX+, ECI TCP-IP 55513, 00:00:00.054.000
+00:00:09.089.355: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:18.056083-04:00, baseTime 1532961957237083, ms_offset 20819, secondsFromGMT_ -14400
+00:00:09.089.409: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:09.089.570: PLTECIEvents.m:840 PLTECIEvents:eventData: 20819000 + 5111410 = 25930410: AM40 25,930
+00:00:09.090.007: [2] Event: 00:00:08.434, AM40, ECI TCP-IP 55513, 00:00:00.999.000
+00:00:09.095.854: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:19.125083-04:00, baseTime 1532961957237083, ms_offset 21888, secondsFromGMT_ -14400
+00:00:09.095.944: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:09.096.152: PLTECIEvents.m:840 PLTECIEvents:eventData: 21888000 + 5111410 = 26999410: ITI+ 26,999
+00:00:09.096.286: [2] Event: 00:00:09.503, ITI+, ECI TCP-IP 55513, 00:00:01.069.000
+00:00:09.196.865: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:19.523083-04:00, baseTime 1532961957237083, ms_offset 22286, secondsFromGMT_ -14400
+00:00:09.196.965: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:09.197.177: PLTECIEvents.m:840 PLTECIEvents:eventData: 22286000 + 5111410 = 27397410: bgin 27,397
+00:00:09.197.337: [2] Event: 00:00:09.901, bgin, ECI TCP-IP 55513, 00:00:00.398.000
+00:00:09.608.219: NSAEvent2.m:282 NSAImageParent:initWithImage: ITI+
+00:00:11.463.957: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:19.559083-04:00, baseTime 1532961957237083, ms_offset 22322, secondsFromGMT_ -14400
+00:00:11.464.052: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:11.464.249: PLTECIEvents.m:840 PLTECIEvents:eventData: 22322000 + 5111410 = 27433410: FIX+ 27,433
+00:00:11.464.738: [2] Event: 00:00:09.937, FIX+, ECI TCP-IP 55513, 00:00:00.036.000
+00:00:11.468.877: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:20.558083-04:00, baseTime 1532961957237083, ms_offset 23321, secondsFromGMT_ -14400
+00:00:11.468.935: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:11.469.102: PLTECIEvents.m:840 PLTECIEvents:eventData: 23321000 + 5111410 = 28432410: AM40 28,432
+00:00:11.469.535: [2] Event: 00:00:10.936, AM40, ECI TCP-IP 55513, 00:00:00.999.000
+00:00:11.476.715: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:21.627083-04:00, baseTime 1532961957237083, ms_offset 24390, secondsFromGMT_ -14400
+00:00:11.476.789: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:11.478.857: PLTECIEvents.m:840 PLTECIEvents:eventData: 24390000 + 5111410 = 29501410: ITI+ 29,501
+00:00:11.478.998: [2] Event: 00:00:12.005, ITI+, ECI TCP-IP 55513, 00:00:01.069.000
+00:00:11.564.746: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:21.890083-04:00, baseTime 1532961957237083, ms_offset 24653, secondsFromGMT_ -14400
+00:00:11.564.855: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:11.565.062: PLTECIEvents.m:840 PLTECIEvents:eventData: 24653000 + 5111410 = 29764410: bgin 29,764
+00:00:11.565.205: [2] Event: 00:00:12.268, bgin, ECI TCP-IP 55513, 00:00:00.263.000
+00:00:13.814.775: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:21.944083-04:00, baseTime 1532961957237083, ms_offset 24707, secondsFromGMT_ -14400
+00:00:13.814.870: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:13.815.072: PLTECIEvents.m:840 PLTECIEvents:eventData: 24707000 + 5111410 = 29818410: FIX+ 29,818
+00:00:13.815.556: [2] Event: 00:00:12.322, FIX+, ECI TCP-IP 55513, 00:00:00.054.000
+00:00:13.818.161: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:22.943083-04:00, baseTime 1532961957237083, ms_offset 25706, secondsFromGMT_ -14400
+00:00:13.818.210: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:13.818.358: PLTECIEvents.m:840 PLTECIEvents:eventData: 25706000 + 5111410 = 30817410: AM40 30,817
+00:00:13.818.781: [2] Event: 00:00:13.321, AM40, ECI TCP-IP 55513, 00:00:00.999.000
+00:00:13.821.554: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:24.013083-04:00, baseTime 1532961957237083, ms_offset 26776, secondsFromGMT_ -14400
+00:00:13.821.603: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:13.821.742: PLTECIEvents.m:840 PLTECIEvents:eventData: 26776000 + 5111410 = 31887410: ITI+ 31,887
+00:00:13.821.859: [2] Event: 00:00:14.391, ITI+, ECI TCP-IP 55513, 00:00:01.070.000
+00:00:13.914.068: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:24.241083-04:00, baseTime 1532961957237083, ms_offset 27004, secondsFromGMT_ -14400
+00:00:13.914.162: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:13.914.362: PLTECIEvents.m:840 PLTECIEvents:eventData: 27004000 + 5111410 = 32115410: bgin 32,115
+00:00:13.914.513: [2] Event: 00:00:14.619, bgin, ECI TCP-IP 55513, 00:00:00.228.000
+00:00:16.035.578: PLTRecord.m:715 PLTRecord:stopAll 
+00:00:16.035.654: --- EEG STOP RECORDING ----------------------------------------------------------------------------------
+00:00:16.035.722: --- EEG HANDLE STOP RECORDING ---------------------------------------------------------------------------
+00:00:16.037.748: PLTRecord.m:1446 PLTRecord:handleStopRecording Recording duration 15.564000, record duration 16.024000
+00:00:16.046.162: 
+00:00:16.046.253: Sample Provider timing info
+00:00:16.046.286:     Amp Start Time: 140736540078851
+00:00:16.046.352:     Amp Start Date: 2018-07-30 10:45:52.125673 AM EDT
+00:00:16.046.375:     Stream Up Time: 33.520000 seconds
+00:00:16.046.393: 
+00:00:16.046.582: NSARecording.m:162 NSARecording:lastWrites top signal blocks 0
+00:00:16.046.868: NSARecording.m:1428 NSARecording:appendFlatlinedSamples EEG shift: Append 28 flatlined samples to epoch 2
+00:00:16.046.964: NSARecording.m:3001 NSARecording:writeEpoch #2, beginTime: 1804000, endTime: 16024000, firstBlock: 2, lastBlock: 2
+00:00:16.048.113: NSARecording.m:2726 NSARecording:writeWorkspace 
+00:00:16.051.702: NSARecording.m:1088 offset 2076, egiType 
+00:00:16.058.020: NSPopUpButton+Extras.m:91 NSPopUpButton:indexOfSelectedItemInRange: No selection in range {8, 1}
+00:00:16.058.463: NSDictionary+Extras.m:130 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key: splitView_
+00:00:16.059.703: NSDictionary+Extras.m:130 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key: psgView_
+00:00:16.059.735: NSDictionary+Extras.m:130 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key: channel settings
+00:00:16.059.825: NSDictionary+Extras.m:130 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key: video setting
+00:00:16.059.864: NSDictionary+Extras.m:130 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key: positions
+00:00:16.059.949: NSDictionary+Extras.m:125 __NSDictionaryM:safeSetObject:forKey: aKey cannot be nil
+00:00:16.059.976: NSDictionary+Extras.m:132 __NSDictionaryM:safeSetObject:forKey: object cannot be nil for key
+00:00:16.060.039: NSADelegate.mm:852 NSADelegate:developmentFeaturesEnabled 1
+00:00:16.065.370: NSARecording.m:2770 NSARecording:writeWorkspace
+00:00:16.065.499: NSARecording.m:3147 NSARecording:removeAcquiringXML 
+00:00:16.110.761: NSARecording.m:3156 NSARecording:removeAcquiringXML
+00:00:16.123.634: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:24.296083-04:00, baseTime 1532961957237083, ms_offset 27059, secondsFromGMT_ -14400
+00:00:16.123.719: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:16.132.942: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:25.295083-04:00, baseTime 1532961957237083, ms_offset 28058, secondsFromGMT_ -14400
+00:00:16.133.104: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:16.139.889: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:26.365083-04:00, baseTime 1532961957237083, ms_offset 29128, secondsFromGMT_ -14400
+00:00:16.140.025: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:16.226.885: PLTECICommandDelegate.mm:516 'D' eci_EventData 2018-07-30T10:46:26.551083-04:00, baseTime 1532961957237083, ms_offset 29314, secondsFromGMT_ -14400
+00:00:16.226.992: PLTECICommandDelegate.mm:570 'D' eci_EventData ack
+00:00:16.451.293: PLTRecord.m:1598 PLTRecord:lastWritesComplete: _recording
+00:00:16.451.530: --- NSARECORDING dealloc --------------------------------------------------------------------------------
