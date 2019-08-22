@@ -1,0 +1,11 @@
+raw_data_name='NIRS-2019-08-23_001';
+Subject=1
+SamplingRate=12.50000; 
+waveLength_N=2; 
+Wavelengths=[760	850]; 
+source_N=5;
+detector_N=16;
+time_point_N=145;
+source_detector_key=[1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 0 0 0 0 0;...
+                     0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 3 4 5];
+probeInfo_file='C:\NIRx\Montages\FileImporterTest2_5x9\Standard_probeInfo.mat';
