@@ -1,0 +1,11 @@
+190315/ebeich/
+
+ The raw data file 'c,rfDC' contains simulated data for the
+248 magnetometer channels (A1-A248) and the TRIGGER channel.
+Peak amplitudes are approx. <n>*30fT for A<n>, i.e., the
+amplitude increases with the channel number.
+
+The filtered datafile 'c,rfDC,fn50,o' has been created
+by applying the 4D/BTi-filter program (50Hz-notch; MSW 1.3.8)
+and fills the 'offset'-field behind the 'off_flag' in the
+file header. (Cf. Issue #6048)
