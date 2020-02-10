@@ -17,6 +17,7 @@ for idx_file = 1:length(all_files)
   
   new_data = {};
   new_data{1} = data.data;
+  new_data{2} = data.data;
   data.data = new_data;
   
   save(fullfile(data_folder, target_folder, f_name), '-struct', 'data');
