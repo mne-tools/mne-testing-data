@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventTrack xmlns="http://www.egi.com/event_mff" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <name>ECI TCP-IP 55513</name>
+    <trackType>STIM</trackType>
+    <event>
+        <beginTime>2018-07-30T10:46:10.499083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>SESS</code>
+        <label>assr-am</label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>age_</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+            <key>
+                <keyCode>exp_</keyCode>
+                <description></description>
+                <data dataType="short">1</data>
+            </key>
+            <key>
+                <keyCode>hand</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+            <key>
+                <keyCode>sex_</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+            <key>
+                <keyCode>subj</keyCode>
+                <description></description>
+                <data dataType="short">999</data>
+            </key>
+            <key>
+                <keyCode>#cel</keyCode>
+                <description></description>
+                <data dataType="short">5</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:10.548083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>CELL</code>
+        <label>TARG</label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">1</data>
+            </key>
+            <key>
+                <keyCode>#obs</keyCode>
+                <description></description>
+                <data dataType="short">999</data>
+            </key>
+            <key>
+                <keyCode>#spc</keyCode>
+                <description></description>
+                <data dataType="short">12</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:10.553083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>CELL</code>
+        <label>AM30</label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">2</data>
+            </key>
+            <key>
+                <keyCode>#obs</keyCode>
+                <description></description>
+                <data dataType="short">999</data>
+            </key>
+            <key>
+                <keyCode>#spc</keyCode>
+                <description></description>
+                <data dataType="short">12</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:10.558083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>CELL</code>
+        <label>AM40</label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>#obs</keyCode>
+                <description></description>
+                <data dataType="short">999</data>
+            </key>
+            <key>
+                <keyCode>#spc</keyCode>
+                <description></description>
+                <data dataType="short">12</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:10.565083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>CELL</code>
+        <label>AM50</label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">4</data>
+            </key>
+            <key>
+                <keyCode>#obs</keyCode>
+                <description></description>
+                <data dataType="short">999</data>
+            </key>
+            <key>
+                <keyCode>#spc</keyCode>
+                <description></description>
+                <data dataType="short">12</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:10.570083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>CELL</code>
+        <label>SWEP</label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">5</data>
+            </key>
+            <key>
+                <keyCode>#obs</keyCode>
+                <description></description>
+                <data dataType="short">999</data>
+            </key>
+            <key>
+                <keyCode>#spc</keyCode>
+                <description></description>
+                <data dataType="short">12</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:14.524083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>bgin</code>
+        <label></label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>obs#</keyCode>
+                <description></description>
+                <data dataType="short">1</data>
+            </key>
+            <key>
+                <keyCode>pos#</keyCode>
+                <description></description>
+                <data dataType="short">1</data>
+            </key>
+            <key>
+                <keyCode>argu</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:14.672083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>FIX+</code>
+        <label></label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>obs#</keyCode>
+                <description></description>
+                <data dataType="short">1</data>
+            </key>
+            <key>
+                <keyCode>pos#</keyCode>
+                <description></description>
+                <data dataType="short">2</data>
+            </key>
+            <key>
+                <keyCode>argu</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:15.671083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>AM40</code>
+        <label></label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>obs#</keyCode>
+                <description></description>
+                <data dataType="short">1</data>
+            </key>
+            <key>
+                <keyCode>pos#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>argu</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:16.807083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>ITI+</code>
+        <label></label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>obs#</keyCode>
+                <description></description>
+                <data dataType="short">1</data>
+            </key>
+            <key>
+                <keyCode>pos#</keyCode>
+                <description></description>
+                <data dataType="short">4</data>
+            </key>
+            <key>
+                <keyCode>argu</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:17.003083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>bgin</code>
+        <label></label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>obs#</keyCode>
+                <description></description>
+                <data dataType="short">2</data>
+            </key>
+            <key>
+                <keyCode>pos#</keyCode>
+                <description></description>
+                <data dataType="short">1</data>
+            </key>
+            <key>
+                <keyCode>argu</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:17.057083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>FIX+</code>
+        <label></label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>obs#</keyCode>
+                <description></description>
+                <data dataType="short">2</data>
+            </key>
+            <key>
+                <keyCode>pos#</keyCode>
+                <description></description>
+                <data dataType="short">2</data>
+            </key>
+            <key>
+                <keyCode>argu</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:18.056083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>AM40</code>
+        <label></label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>obs#</keyCode>
+                <description></description>
+                <data dataType="short">2</data>
+            </key>
+            <key>
+                <keyCode>pos#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>argu</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:19.125083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>ITI+</code>
+        <label></label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>obs#</keyCode>
+                <description></description>
+                <data dataType="short">2</data>
+            </key>
+            <key>
+                <keyCode>pos#</keyCode>
+                <description></description>
+                <data dataType="short">4</data>
+            </key>
+            <key>
+                <keyCode>argu</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:19.523083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>bgin</code>
+        <label></label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>obs#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>pos#</keyCode>
+                <description></description>
+                <data dataType="short">1</data>
+            </key>
+            <key>
+                <keyCode>argu</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:19.559083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>FIX+</code>
+        <label></label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>obs#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>pos#</keyCode>
+                <description></description>
+                <data dataType="short">2</data>
+            </key>
+            <key>
+                <keyCode>argu</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:20.558083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>AM40</code>
+        <label></label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>obs#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>pos#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>argu</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:21.627083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>ITI+</code>
+        <label></label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>obs#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>pos#</keyCode>
+                <description></description>
+                <data dataType="short">4</data>
+            </key>
+            <key>
+                <keyCode>argu</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:21.890083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>bgin</code>
+        <label></label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>obs#</keyCode>
+                <description></description>
+                <data dataType="short">4</data>
+            </key>
+            <key>
+                <keyCode>pos#</keyCode>
+                <description></description>
+                <data dataType="short">1</data>
+            </key>
+            <key>
+                <keyCode>argu</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:21.944083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>FIX+</code>
+        <label></label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>obs#</keyCode>
+                <description></description>
+                <data dataType="short">4</data>
+            </key>
+            <key>
+                <keyCode>pos#</keyCode>
+                <description></description>
+                <data dataType="short">2</data>
+            </key>
+            <key>
+                <keyCode>argu</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:22.943083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>AM40</code>
+        <label></label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>obs#</keyCode>
+                <description></description>
+                <data dataType="short">4</data>
+            </key>
+            <key>
+                <keyCode>pos#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>argu</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:24.013083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>ITI+</code>
+        <label></label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>obs#</keyCode>
+                <description></description>
+                <data dataType="short">4</data>
+            </key>
+            <key>
+                <keyCode>pos#</keyCode>
+                <description></description>
+                <data dataType="short">4</data>
+            </key>
+            <key>
+                <keyCode>argu</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+        </keys>
+    </event>
+    <event>
+        <beginTime>2018-07-30T10:46:24.241083-04:00</beginTime>
+        <duration>1000</duration>
+        <code>bgin</code>
+        <label></label>
+        <description></description>
+        <sourceDevice>Multi-Port ECI</sourceDevice>
+        <keys>
+            <key>
+                <keyCode>cel#</keyCode>
+                <description></description>
+                <data dataType="short">3</data>
+            </key>
+            <key>
+                <keyCode>obs#</keyCode>
+                <description></description>
+                <data dataType="short">5</data>
+            </key>
+            <key>
+                <keyCode>pos#</keyCode>
+                <description></description>
+                <data dataType="short">1</data>
+            </key>
+            <key>
+                <keyCode>argu</keyCode>
+                <description></description>
+                <data dataType="short">0</data>
+            </key>
+        </keys>
+    </event>
+</eventTrack>
