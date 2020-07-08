@@ -1,0 +1,162 @@
+3	2                                                                                                                             
+//Probe file                                                                                                                    
+//Minor revision number                                                                                                         
+1                                                                                                                               
+//ProbeName                                                                                                                     
+%N	Name                                                                                                                         
+//Probe type, number of sensors                                                                                                 
+0	30                                                                                                                            
+//Position of fiducials X+, Y+, Y- on the subject                                                                               
+%F         0.912775E-01   0.000000       0.000000    
+%F         0.599716E-03   0.784103E-01  -0.231296E-17
+%F        -0.606755E-02  -0.709034E-01   0.000000    
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 1                                                                                           
+%N	DetAa        
+  -0.966161E-01   0.338437E-01   0.558559E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 2                                                                                           
+%N	DetBa        
+  -0.965480E-01   0.295639E-01   0.802247E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 3                                                                                           
+%N	DetCa        
+  -0.842655E-01   0.246236E-01   0.101074    
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 4                                                                                           
+%N	DetDa        
+  -0.738284E-01   0.194876E-01   0.114086    
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 5                                                                                           
+%N	DetEa        
+  -0.101163      -0.212446E-01   0.546990E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 6                                                                                           
+%N	DetFa        
+  -0.967222E-01  -0.197211E-01   0.765090E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 7                                                                                           
+%N	DetGa        
+  -0.861113E-01  -0.218360E-01   0.968505E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 8                                                                                           
+%N	DetHa        
+  -0.751591E-01  -0.192090E-01   0.112078    
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 9                                                                                           
+%N	A1a          
+  -0.818852E-01  -0.464419E-01   0.880970E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 10                                                                                          
+%N	A3a          
+  -0.898024E-01  -0.456557E-01   0.600431E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 11                                                                                          
+%N	A5a          
+  -0.811415E-01   0.890307E-03   0.107795    
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 12                                                                                          
+%N	A7a          
+  -0.967527E-01   0.307335E-02   0.837463E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 13                                                                                          
+%N	B9a          
+  -0.103802       0.604303E-02   0.512096E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 14                                                                                          
+%N	E1a          
+  -0.790628E-01   0.457766E-01   0.100619    
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 15                                                                                          
+%N	E3a          
+  -0.863443E-01   0.554852E-01   0.692772E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 16                                                                                          
+%N	DetAb        
+  -0.958327E-01   0.451337E-01   0.541672E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 17                                                                                          
+%N	DetBb        
+  -0.932942E-01   0.408094E-01   0.775681E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 18                                                                                          
+%N	DetCb        
+  -0.826635E-01   0.344869E-01   0.940788E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 19                                                                                          
+%N	DetDb        
+  -0.722771E-01   0.311587E-01   0.107581    
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 20                                                                                          
+%N	DetEb        
+  -0.100305      -0.861812E-02   0.511092E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 21                                                                                          
+%N	DetFb        
+  -0.992458E-01  -0.742607E-02   0.778480E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 22                                                                                          
+%N	DetGb        
+  -0.898758E-01  -0.105643E-01   0.971690E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 23                                                                                          
+%N	DetHb        
+  -0.780305E-01  -0.996365E-02   0.110772    
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 24                                                                                          
+%N	A1b          
+  -0.878098E-01  -0.348737E-01   0.907238E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 25                                                                                          
+%N	A3b          
+  -0.971674E-01  -0.360763E-01   0.599644E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 26                                                                                          
+%N	A5b          
+  -0.834840E-01   0.132031E-01   0.107623    
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 27                                                                                          
+%N	A7b          
+  -0.991844E-01   0.182609E-01   0.788733E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 28                                                                                          
+%N	B9b          
+  -0.101955       0.221799E-01   0.435467E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 29                                                                                          
+%N	E1b          
+  -0.745113E-01   0.534033E-01   0.879177E-01
+//Sensor type                                                                                                                   
+%S	400                                                                                                                          
+//Sensor name and data for sensor # 30                                                                                          
+%N	E3b          
+  -0.811605E-01   0.595585E-01   0.604312E-01
