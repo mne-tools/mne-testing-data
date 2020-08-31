@@ -1,0 +1,118 @@
+[FileInfo]
+File=sub-pt1_ses-02_task-monitor_acq-ecog_run-01_clip2.dat
+FileType=Interleaved
+SamplingRate=200
+HeaderLength=0
+Calibration=0.390625
+WaveformCount=83
+DataType=7
+
+[Patient]
+FullName=No_Name
+Sex=X
+Hand=
+BirthDate=19-NOV-199
+ID=0
+MedicalRecordN=
+TestDate=2014.12.19
+TestTime=02:37:48
+Physician=
+Technician=
+Medications=
+History=
+Comments1=0 X 19-NOV-1997 No_Name
+Comments2=Startdate 19-DEC-2014 X X NKC-EEG-1100C
+
+
+[ChannelMap]
+Fp1-Ref=1
+Fp2-Ref=2
+F3-Ref=3
+F4-Ref=4
+C3-Ref=5
+C4-Ref=6
+P3-Ref=7
+P4-Ref=8
+O1-Ref=9
+O2-Ref=10
+F7-Ref=11
+F8-Ref=12
+T7-Ref=13
+T8-Ref=14
+P7-Ref=15
+P8-Ref=16
+Fz-Ref=17
+Cz-Ref=18
+Pz-Ref=19
+POL E-Ref=20
+POL NR1-Ref=21
+POL NR2-Ref=22
+TP9-Ref=23
+TP10-Ref=24
+FT9-Ref=25
+FT10-Ref=26
+POL X1-Ref=27
+POL X2-Ref=28
+POL X3-Ref=29
+POL X4-Ref=30
+POL X5-Ref=31
+POL X6-Ref=32
+POL X7-Ref=33
+POL X8-Ref=34
+POL X9-Ref=35
+POL X10-Ref=36
+POL X11-Ref=37
+POL DC01-Ref=38
+POL DC02-Ref=39
+POL DC03-Ref=40
+POL DC04-Ref=41
+POL DC05-Ref=42
+POL DC06-Ref=43
+POL DC07-Ref=44
+POL DC08-Ref=45
+POL DC09-Ref=46
+POL DC10-Ref=47
+POL DC11-Ref=48
+POL DC12-Ref=49
+POL DC13-Ref=50
+POL DC14-Ref=51
+POL DC15-Ref=52
+POL DC16-Ref=53
+POL BN1-Ref=54
+POL BN2-Ref=55
+POL $TP9-Ref=56
+POL $TP10-Ref=57
+POL X12-Ref=58
+POL X13-Ref=59
+POL X14-Ref=60
+POL X15-Ref=61
+POL X16-Ref=62
+POL X17-Ref=63
+POL X18-Ref=64
+POL X19-Ref=65
+POL X20-Ref=66
+POL X21-Ref=67
+POL X22-Ref=68
+POL X23-Ref=69
+POL X24-Ref=70
+POL X25-Ref=71
+POL X26-Ref=72
+POL X27-Ref=73
+POL X28-Ref=74
+POL X29-Ref=75
+POL X30-Ref=76
+POL X31-Ref=77
+POL EKG1-Ref=78
+POL EKG2-Ref=79
+POL PAT-Ref=80
+POL TECH-Ref=81
+POL BP3-Ref=82
+POL BP4-Ref=83
+
+
+[Comments]
+0.000,3.234,0,65542,CLip2
+3.730,0.504,0,65536,Clip1
+
+[SampleTimes]
+0=9468.360
