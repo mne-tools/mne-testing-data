@@ -1,0 +1,131 @@
+﻿DATA_PARAMETERS START
+   DataFormat           = FLOAT
+   DataGuid             = {0B86B22B-1A49-411A-9657-4A4BDA3D3ED8}
+   DataExtension        = dat
+   CurrentSessionLabel  = 
+   DataByteOrder        = INTEL
+   DataSampOrder        = SAMP
+   AmplifierInfo        = Synamps Headbox 1: Digital(PN:8509 SN:1347) Analog(PN:8548 SN:0622) Firm:01 --  Headbox 2: Digital(PN:8509 SN:1348) Analog(PN:8548 SN:0623) Firm:01 (SynAmps), LP-Filter: order 2 Butterworth (Configuration: MicroMagLink 64 Case Western - Copy)
+   Comments             = 
+   NumSessions          =  0
+   CurrentSession       =  0
+   FrequencyDomain      =  0
+   NumSamples           =  5000
+   NumTrials            =  1
+   NumChannels          =  6
+   NumGroups            =  2
+   NumMagGroups         =  0
+   NumElGroups          =  1
+   IntOffset            =  0
+   NumLinesSkip         =  0
+   NumColumnsSkip       =  0
+   DecimalSymbol        =  0
+   DigLengthUnit        = -1
+   DigColX              =  1
+   DigColY              =  2
+   DigColZ              =  3
+   DigColLabel          =  4
+   DigDirX              = -1
+   DigDirY              = -1
+   DigDirZ              = -1
+   StartYear            =  2018
+   StartMonth           =  11
+   StartDay             =  21
+   StartHour            =  12
+   StartMin             =  53
+   StartSec             =  48
+   StartMillisec        =  525
+   SampleTimeUsec       =  4000
+   SampleFreqHz         =  250
+   TriggerOffsetUsec    =  0
+   TriggerOffsetHz      =  0
+   StimIntervalUsec     =  0
+DATA_PARAMETERS END
+
+DEVICE_PARAMETERS START
+   DataUnit             = uV
+   NumChanThisGroup     =  4
+   NumSensorsThisGroup  =  4
+   CommonOffset         =  0
+   NumRefChannels       =  1
+   CommonScale          =  1
+DEVICE_PARAMETERS END
+
+DEVICE_PARAMETERS_OTHERS START
+   DataUnit             = uV
+   NumChanThisGroup     =  3
+   NumSensorsThisGroup  =  3
+   CommonOffset         =  0
+   NumRefChannels       =  0
+   CommonScale          =  1
+DEVICE_PARAMETERS_OTHERS END
+
+CHAN_IN_FILE START
+   ListDescription      = Orig2Meas
+   ListUnits            = 
+   ListNrColumns        =  1
+   ListNrRows           =  4
+   ListNrTimepts        =  1
+   ListNrBlocks         =  1
+   ListBinary           =  0
+   ListType             =  0
+   ListTrafoType        =  0
+   ListGridType         =  2
+   ListFirstColumn      =  1
+   ListIndexMin         = -1
+   ListIndexMax         = -1
+   ListIndexAbsMax      = -1
+CHAN_IN_FILE END
+
+CHAN_IN_FILE START_LIST	# Do not edit!  NOTE: Important in this test is that the "Ref" sensor in the 4th line is listed here, but its CHAN_IN_FILE value is 0, so it is not present in the datafile and should not appear in our final list of loaded channels.   The resulting channel list should be in this order: FP1,FPZ,FP2,VEO,EKG,Trigger
+  1
+  2
+  3
+  0
+CHAN_IN_FILE END_LIST
+
+CHAN_IN_FILE_OTHERS START
+   ListDescription      = Orig2Meas
+   ListUnits            = 
+   ListNrColumns        =  1
+   ListNrRows           =  3
+   ListNrTimepts        =  1
+   ListNrBlocks         =  1
+   ListBinary           =  0
+   ListType             =  0
+   ListTrafoType        =  0
+   ListGridType         =  2
+   ListFirstColumn      =  1
+   ListIndexMin         = -1
+   ListIndexMax         = -1
+   ListIndexAbsMax      = -1
+CHAN_IN_FILE_OTHERS END
+
+CHAN_IN_FILE_OTHERS START_LIST	# Do not edit!
+  4
+  5
+  6
+CHAN_IN_FILE_OTHERS END_LIST
+
+TRIGGER_FLAGS_OTHERS START
+   ListDescription      = Trigger
+   ListUnits            = 
+   ListNrColumns        =  1
+   ListNrRows           =  3
+   ListNrTimepts        =  1
+   ListNrBlocks         =  1
+   ListBinary           =  0
+   ListType             =  0
+   ListTrafoType        =  0
+   ListGridType         =  2
+   ListFirstColumn      =  1
+   ListIndexMin         = -1
+   ListIndexMax         = -1
+   ListIndexAbsMax      = -1
+TRIGGER_FLAGS_OTHERS END
+
+TRIGGER_FLAGS_OTHERS START_LIST	# Do not edit!
+  0
+  0
+  0
+TRIGGER_FLAGS_OTHERS END_LIST

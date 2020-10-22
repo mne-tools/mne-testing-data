@@ -1,0 +1,225 @@
+﻿NUMBERS START
+   ListDescription      = SensorNumbers
+   ListUnits            = 
+   ListNrColumns        =  1
+   ListNrRows           =  4
+   ListNrTimepts        =  1
+   ListNrBlocks         =  1
+   ListBinary           =  0
+   ListType             =  0
+   ListTrafoType        =  0
+   ListGridType         =  2
+   ListFirstColumn      =  1
+   ListIndexMin         = -1
+   ListIndexMax         = -1
+   ListIndexAbsMax      = -1
+NUMBERS END
+
+NUMBERS START_LIST	# Do not edit!
+  1
+  2
+  3
+  4
+NUMBERS END_LIST
+
+LABELS START
+   ListDescription      = SensorLabels
+   ListUnits            = 
+   ListNrColumns        =  260
+   ListNrRows           =  4
+   ListNrTimepts        =  1
+   ListNrBlocks         =  1
+   ListBinary           =  0
+   ListType             =  5
+   ListTrafoType        =  0
+   ListGridType         =  2
+   ListFirstColumn      =  1
+   ListIndexMin         = -1
+   ListIndexMax         = -1
+   ListIndexAbsMax      = -1
+LABELS END
+
+LABELS START_LIST	# Do not edit!  NOTE: Important in this test is that the "Ref" sensor is listed here, but it is not actually in the datafile and should not appear in our final list of loaded channels
+FP1
+FPZ
+FP2
+Ref
+LABELS END_LIST
+
+GEOMETRY START
+   HelmetSystem         =  0
+   PlanarSensors        =  0
+   SensorShape          = -1
+   SensorOrder          =  0
+   SensorStatus         =  6
+   SensorDiameterXMm    =  10
+   SensorDiameterYMm    =  10
+   SystemCenterXMm      =  1e+009
+   SystemCenterYMm      =  1e+009
+   SystemCenterZMm      =  1e+009
+   BaselengthMm         = -1
+GEOMETRY END
+
+SENSORS START
+   ListDescription      = Sensors
+   ListUnits            = mm
+   ListNrColumns        =  3
+   ListNrRows           =  4
+   ListNrTimepts        =  1
+   ListNrBlocks         =  1
+   ListBinary           =  0
+   ListType             =  1
+   ListTrafoType        =  0
+   ListGridType         =  2
+   ListFirstColumn      =  1
+   ListIndexMin         = -1
+   ListIndexMax         = -1
+   ListIndexAbsMax      = -1
+SENSORS END
+
+SENSORS START_LIST	# Do not edit!
+  29.3656	-89.0955	 77.8806
+  2.7508	-97.9691	 77.4309
+ -22.2517	-96.7191	 75.0402
+ -17.9263	 31.7557	 140.369
+SENSORS END_LIST
+
+TRANSFORM START
+   ListDescription      = SensorStatus
+   ListUnits            = 
+   ListNrColumns        =  1
+   ListNrRows           =  4
+   ListNrTimepts        =  1
+   ListNrBlocks         =  1
+   ListBinary           =  0
+   ListType             =  0
+   ListTrafoType        =  0
+   ListGridType         =  2
+   ListFirstColumn      =  1
+   ListIndexMin         = -1
+   ListIndexMax         = -1
+   ListIndexAbsMax      = -1
+TRANSFORM END
+
+TRANSFORM START_LIST	# Do not edit!
+  6
+  6
+  6
+  6
+TRANSFORM END_LIST
+
+NUMBERS_OTHERS START
+   ListDescription      = SensorNumbers
+   ListUnits            = 
+   ListNrColumns        =  1
+   ListNrRows           =  3
+   ListNrTimepts        =  1
+   ListNrBlocks         =  1
+   ListBinary           =  0
+   ListType             =  0
+   ListTrafoType        =  0
+   ListGridType         =  2
+   ListFirstColumn      =  1
+   ListIndexMin         = -1
+   ListIndexMax         = -1
+   ListIndexAbsMax      = -1
+NUMBERS_OTHERS END
+
+NUMBERS_OTHERS START_LIST	# Do not edit!
+  1
+  2
+  3
+NUMBERS_OTHERS END_LIST
+
+LABELS_OTHERS START
+   ListDescription      = SensorLabels
+   ListUnits            = 
+   ListNrColumns        =  260
+   ListNrRows           =  3
+   ListNrTimepts        =  1
+   ListNrBlocks         =  1
+   ListBinary           =  0
+   ListType             =  5
+   ListTrafoType        =  0
+   ListGridType         =  2
+   ListFirstColumn      =  1
+   ListIndexMin         = -1
+   ListIndexMax         = -1
+   ListIndexAbsMax      = -1
+LABELS_OTHERS END
+
+LABELS_OTHERS START_LIST	# Do not edit!
+VEO
+EKG
+Trigger
+LABELS_OTHERS END_LIST
+
+LANDMARKS START
+   ListDescription      = functional landmark positions
+   ListUnits            = mm
+   ListNrColumns        =  3
+   ListNrRows           =  3
+   ListNrTimepts        =  1
+   ListNrBlocks         =  1
+   ListBinary           =  0
+   ListType             =  1
+   ListTrafoType        =  1
+   ListGridType         =  2
+   ListFirstColumn      =  1
+   ListIndexMin         = -1
+   ListIndexMax         = -1
+   ListIndexAbsMax      = -1
+LANDMARKS END
+
+LANDMARKS START_LIST	# Do not edit!
+  58.9563	 3.9968e-015	 1.77636e-015
+  8.02136e-015	-90.0606	 8.88178e-016
+ -89.8875	 9.76996e-015	 3.55271e-015
+LANDMARKS END_LIST
+
+LM_INDICES START
+   ListDescription      = functional landmark PAN info
+   ListUnits            = 
+   ListNrColumns        =  1
+   ListNrRows           =  3
+   ListNrTimepts        =  1
+   ListNrBlocks         =  1
+   ListBinary           =  0
+   ListType             =  0
+   ListTrafoType        =  0
+   ListGridType         =  2
+   ListFirstColumn      =  1
+   ListIndexMin         = -1
+   ListIndexMax         = -1
+   ListIndexAbsMax      = -1
+LM_INDICES END
+
+LM_INDICES START_LIST	# Do not edit!
+  2
+  1
+  3
+LM_INDICES END_LIST
+
+LM_REMARKS START
+   ListDescription      = functional landmark labels
+   ListUnits            = 
+   ListNrColumns        =  40
+   ListNrRows           =  3
+   ListNrTimepts        =  1
+   ListNrBlocks         =  1
+   ListBinary           =  0
+   ListType             =  5
+   ListTrafoType        =  0
+   ListGridType         =  2
+   ListFirstColumn      =  1
+   ListIndexMin         = -1
+   ListIndexMax         = -1
+   ListIndexAbsMax      = -1
+LM_REMARKS END
+
+LM_REMARKS START_LIST	# Do not edit!
+
+
+
+LM_REMARKS END_LIST
+
