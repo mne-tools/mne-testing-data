@@ -27,8 +27,7 @@ Threshold="0.000	0.000"
 StimulusType="None"
 
 [ExperimentNotes]
-Notes="[Type notes here]
-Testing controlled saturation"
+Notes="Testing controlled saturation"
 
 [GainSettings]
 Gains="#
