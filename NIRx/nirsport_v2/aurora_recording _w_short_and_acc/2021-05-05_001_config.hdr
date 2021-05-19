@@ -1,0 +1,31 @@
+[GeneralInfo]
+Version=2021.4.0-34-ge9fdbbc8
+Device ID=2108_0247_A
+Date=2021-05-05 08:06:04.746276
+Sources=8
+Detectors=16
+Sampling rate=10.172526041666666
+Amplitude details=100.0%, 100.0%, 100.0%, 100.0%, 100.0%, 100.0%, 100.0%, 100.0%
+triggers=[]
+
+[ExperimentNotes]
+experiment_name=TestExp
+experiment_subject=MNETEST Rob
+experiment_subject_age=9
+experiment_subject_gender=Male
+experiment_subject_contact_info=Test
+experiment_remarks=No remarks
+
+[DataStructure]
+Channel Mask="# 
+1     0     0     0     0     1     0     0     1     0     0     0     0     0     0     0
+0     1     0     0     0     0     0     0     0     1     0     0     0     0     0     0
+0     0     0     0     1     0     1     0     0     0     1     0     0     0     0     0
+0     0     0     0     0     0     0     1     0     0     0     1     0     0     0     0
+0     0     1     0     0     0     0     0     0     0     0     0     1     0     0     0
+0     0     0     1     0     0     0     0     0     0     0     0     0     1     0     0
+1     0     0     0     0     1     0     0     0     0     0     0     0     0     1     0
+0     0     0     0     1     0     1     0     0     0     0     0     0     0     0     1
+#"
+Channel indices=
+0-0, 0-5, 0-8, 1-1, 1-9, 2-4, 2-6, 2-10, 3-7, 3-11, 4-2, 4-12, 5-3, 5-13, 6-0, 6-5, 6-14, 7-4, 7-6, 7-15
