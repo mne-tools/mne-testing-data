@@ -14,4 +14,4 @@ This directory is structured by vendor, software/hardware, SNIRF version, files.
 ## SNIRF Compatability
 
 As of February 2022 the files provided by the vendors were not SNIRF compliant according to https://github.com/BUNPC/pysnirf2.
-The only fully compliant file is the MNE-NIRS SNIRF file. The other files are retained to ensure compatability with older vendor files.
+The only fully compliant file is the MNE-NIRS SNIRF file. The other files are retained to ensure compatability with older vendor measurements.
