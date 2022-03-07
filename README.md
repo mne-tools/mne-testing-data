@@ -28,9 +28,9 @@ Add or change files in the repo for use with MNE
 
 4. Once your PR is merged, ask a maintainer to cut a new release of the testing data, e.g. 0.53.
 
-5. In MNE, update `mne/datasets/utils.py` to:
+5. In MNE, update `mne/datasets/config.py` to:
 
-   1. Change the `'testing'` value in the `releases` dict in `mne/datasets/utils.py` to the new version.
+   1. Change the `'testing'` value in the `RELEASES` dict in `mne/datasets/config.py` to the new version.
 
    2. Set the new hash. This can be easily done by either:
    
