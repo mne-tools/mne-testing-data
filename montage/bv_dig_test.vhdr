@@ -96,8 +96,8 @@ BrainVision Recorder Professional   -   V. 1.21.0303
 A m p l i f i e r  S e t u p
 ============================
 Number of channels: 67
-Sampling Rate [Hz]: 1000
-Sampling Interval [µS]: 1000
+Sampling Rate [Hz]: 5000
+Sampling Interval [µS]: 200
 
 Channels
 --------
