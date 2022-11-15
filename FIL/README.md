@@ -23,7 +23,7 @@ data_folder
 └───[FILE_PREFIX]_coordsystem.json    [OPTIONAL]
 
 ```
-However, distinct to BIDS we store no dupliate metadata within our `_meg.bin` file, all metadata is provided within the BIDS-mandated supplementary files. 
+However, distinct to BIDS we store no duplicate metadata within our `_meg.bin` file, all metadata is provided within the BIDS-mandated supplementary files. 
 
 #### _meg.bin info
 
