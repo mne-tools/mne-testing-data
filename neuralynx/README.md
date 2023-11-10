@@ -21,7 +21,7 @@ For more info about the file formats, see: [Neuralynx data file formats](https:/
 
 ## MATLAB reader used
 
-The `.mat` files were created via the `Nlx2MatCSC.m` (.ncs files) and `Nlx2EV.mat` (.nev file).
+The `.mat` files were created via the `Nlx2MatCSC.m` (.ncs files) and `Nlx2EV.mat` (.nev file). See project page: https://www.urut.ch/new/serendipity/index.php?/pages/nlxtomatlab.html. Available at: https://neuralynx.fh-co.com/research-software/#file-converters-&-utilities
 
 Example usage:
 
