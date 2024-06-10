@@ -1,0 +1,18 @@
+{
+	"ACCChannelCount":0,
+	"ANGACCChannelCount":0,
+	"ANGVELChannelCount":0,
+	"InstitutionName":"VU",
+	"JNTANGChannelCount":0,
+	"MAGNChannelCount":0,
+	"MotionChannelCount":9,
+	"ORNTChannelCount":0,
+	"POSChannelCount":0,
+	"RecordingDuration":421,
+	"SamplingFrequency":100,
+	"SamplingFrequencyEffective":100,
+	"StartTime":"n/a",
+	"TrackedPointsCount":3,
+	"TrackingSystemName":"qualisys",
+	"VELChannelCount":0
+}
