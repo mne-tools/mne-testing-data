@@ -1,0 +1,86 @@
+BrainVision Data Exchange Header File Version 1.0
+; Data created by EEMAGINE EEG Data Exporter
+
+[Common Infos]
+DataFile=test-user-annotation.eeg
+MarkerFile=test-user-annotation.vmrk
+DataFormat=BINARY
+; Data orientation: MULTIPLEXED=ch1,pt1, ch2,pt1 ...
+DataOrientation=MULTIPLEXED
+NumberOfChannels=64
+; Sampling interval in microseconds
+SamplingInterval=2000
+
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+; Each entry: Ch<Channel number>=<Name>,<Reference channel name>,
+; <Resolution in microvolts>,<Future extensions..
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in channel names are coded as "\1".
+Ch1=1Z,,1
+Ch2=2Z,,1
+Ch3=3Z,,1
+Ch4=4Z,,1
+Ch5=6Z,,1
+Ch6=7Z,,1
+Ch7=8Z,,1
+Ch8=9Z,,1
+Ch9=1L,,1
+Ch10=2L,,1
+Ch11=3L,,1
+Ch12=4L,,1
+Ch13=5L,,1
+Ch14=6L,,1
+Ch15=7L,,1
+Ch16=8L,,1
+Ch17=9L,,1
+Ch18=10L,,1
+Ch19=11L,,1
+Ch20=1R,,1
+Ch21=2R,,1
+Ch22=3R,,1
+Ch23=4R,,1
+Ch24=5R,,1
+Ch25=6R,,1
+Ch26=7R,,1
+Ch27=8R,,1
+Ch28=9R,,1
+Ch29=10R,,1
+Ch30=11R,,1
+Ch31=1LA,,1
+Ch32=2LA,,1
+Ch33=3LA,,1
+Ch34=1LB,,1
+Ch35=2LB,,1
+Ch36=3LB,,1
+Ch37=4LB,,1
+Ch38=5LB,,1
+Ch39=1LC,,1
+Ch40=2LC,,1
+Ch41=3LC,,1
+Ch42=4LC,,1
+Ch43=5LC,,1
+Ch44=1LD,,1
+Ch45=2LD,,1
+Ch46=3LD,,1
+Ch47=4LD,,1
+Ch48=1RA,,1
+Ch49=2RA,,1
+Ch50=3RA,,1
+Ch51=1RB,,1
+Ch52=2RB,,1
+Ch53=3RB,,1
+Ch54=4RB,,1
+Ch55=5RB,,1
+Ch56=1RC,,1
+Ch57=2RC,,1
+Ch58=3RC,,1
+Ch59=4RC,,1
+Ch60=5RC,,1
+Ch61=1RD,,1
+Ch62=2RD,,1
+Ch63=3RD,,1
+Ch64=4RD,,1
