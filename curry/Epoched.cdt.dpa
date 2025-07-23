@@ -1,0 +1,289 @@
+﻿DATA_PARAMETERS START
+   DataGuid             = {0B86B22B-1A49-411A-9657-4A4BDA3D3ED8}
+   CurrentSessionLabel  = 
+   DataByteOrder        = INTEL
+   DataSampOrder        = SAMP
+   AmplifierInfo        = Simulator
+   Comments             = 
+   FileHistory          = 1 file:¶	C:\Users\Kaiser\Desktop\Acquisition\2025_04_15\Acq 2025_04_15_1519.cdt   4,687 kB   30,000 samples   ¶¶1 EEG group,1 other group, 40 channels¶30,000 samples, 500 Hz sampling rate¶duration: 00:01: 0.0, start latency / trigger offset: 0.0 ms¶Start date: Tue Apr 15 16:19:47 2025¶¶55 events, 2 event types¶¶Scalp EEG group 1: 31 channels, reference: <None>¶
+   FileVersion          =  900
+   NumSessions          =  1
+   CurrentSession       =  0
+   DataFormat           =  6
+   FrequencyDomain      =  0
+   NumSamples           =  501
+   NumTrials            =  26
+   NumChannels          =  40
+   NumGroups            =  2
+   NumMagGroups         =  0
+   NumElGroups          =  1
+   NumLinesSkip         =  0
+   NumColumnsSkip       =  0
+   DecimalSymbol        =  0
+   StartYear            =  2025
+   StartMonth           =  4
+   StartDay             =  15
+   StartHour            =  15
+   StartMin             =  19
+   StartSec             =  47
+   StartMillisec        =  118
+   StartOffsetUTCMin    =  9999
+   SampleTimeUsec       =  2000
+   SampleFreqHz         =  500
+   TriggerOffsetUsec    = -500000
+   TriggerOffsetHz      =  0
+DATA_PARAMETERS END
+
+DEVICE_PARAMETERS START
+   DataUnit             = uV
+   NumChanThisGroup     =  31
+   NumSensorsThisGroup  =  31
+   CommonOffset         =  0
+   NumRefChannels       =  0
+   EegType              =  1
+   CommonScale          =  1
+DEVICE_PARAMETERS END
+
+DEVICE_PARAMETERS_OTHERS START
+   DataUnit             = uV
+   NumChanThisGroup     =  9
+   NumSensorsThisGroup  =  9
+   CommonOffset         =  0
+   NumRefChannels       =  0
+   EegType              =  0
+   CommonScale          =  1
+DEVICE_PARAMETERS_OTHERS END
+
+EPOCH_INFORMATION START
+   ListDescription      = trial info
+   ListUnits            = 
+   ListNrColumns        =  7
+   ListNrRows           =  26
+   ListNrTimepts        =  1
+   ListNrBlocks         =  1
+   ListBinary           =  0
+   ListType             =  0
+   ListTrafoType        =  0
+   ListGridType         =  2
+   ListFirstColumn      =  1
+   ListIndexMin         = -1
+   ListIndexMax         = -1
+   ListIndexAbsMax      = -1
+EPOCH_INFORMATION END
+
+EPOCH_INFORMATION START_LIST	# Do not edit!
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+  1	 26	 1	 0	 0	 0	 0
+EPOCH_INFORMATION END_LIST
+
+EPOCH_LABELS START
+   ListDescription      = trial label
+   ListUnits            = 
+   ListNrColumns        =  80
+   ListNrRows           =  26
+   ListNrTimepts        =  1
+   ListNrBlocks         =  1
+   ListBinary           =  0
+   ListType             =  5
+   ListTrafoType        =  0
+   ListGridType         =  2
+   ListFirstColumn      =  1
+   ListIndexMin         = -1
+   ListIndexMax         = -1
+   ListIndexAbsMax      = -1
+EPOCH_LABELS END
+
+EPOCH_LABELS START_LIST	# Do not edit!
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+EPOCH_LABELS END_LIST
+
+LABELS START
+   ListDescription      = SensorLabels
+   ListUnits            = 
+   ListNrColumns        =  260
+   ListNrRows           =  31
+   ListNrTimepts        =  1
+   ListNrBlocks         =  1
+   ListBinary           =  0
+   ListType             =  5
+   ListTrafoType        =  0
+   ListGridType         =  2
+   ListFirstColumn      =  1
+   ListIndexMin         = -1
+   ListIndexMax         = -1
+   ListIndexAbsMax      = -1
+LABELS END
+
+LABELS START_LIST	# Do not edit!
+Fp1
+Fp2
+F3
+F4
+C3
+C4
+P3
+P4
+O1
+O2
+A1
+F7
+F8
+T3
+T4
+T5
+T6
+Fz
+Cz
+Pz
+Oz
+FC3
+FC4
+CP3
+CP4
+FT7
+FT8
+TP7
+TP8
+FCz
+CPz
+LABELS END_LIST
+
+GEOMETRY START
+   HelmetSystem         =  0
+   PlanarSensors        =  0
+   SensorShape          = -1
+   SensorOrder          =  0
+   SensorStatus         =  6
+   SensorDiameterXMm    =  10
+   SensorDiameterYMm    =  10
+GEOMETRY END
+
+SENSORS START
+   ListDescription      = Sensors
+   ListUnits            = mm
+   ListNrColumns        =  3
+   ListNrRows           =  31
+   ListNrTimepts        =  1
+   ListNrBlocks         =  1
+   ListBinary           =  0
+   ListType             =  1
+   ListTrafoType        =  0
+   ListGridType         =  2
+   ListFirstColumn      =  1
+   ListIndexMin         = -1
+   ListIndexMax         = -1
+   ListIndexAbsMax      = -1
+SENSORS END
+
+SENSORS START_LIST	# Do not edit!
+  29	-106.5	 32.9
+ -29	-107.5	 32.8
+  51	-81.5	 86.1
+ -53	-82.3	 84
+  71	-17.6	 116.7
+ -71	-18.4	 114.6
+  57	 56.3	 113.3
+ -58	 53.4	 111.9
+  31	 92.2	 64.1
+ -31	 91.2	 64
+  85	 6.2	-18.4
+  70	-65.1	 31.7
+ -70	-64.1	 31.8
+  85	-6.5	 38.5
+ -84	-8.5	 38.3
+  74	 51.6	 49.3
+ -73	 50.6	 49.2
+ -0	-92.6	 112
+ -1	-23.3	 156.4
+ -0	 55	 141.3
+ -0	 94.5	 70.4
+  63	-53.1	 101.5
+ -65	-54.1	 101.4
+  69	 21	 122.3
+ -70	 19.4	 119
+  79	-36.2	 34
+ -79	-36.2	 34
+  84	 22.2	 42.9
+ -84	 22.2	 42.9
+ -0	-61.4	 137.8
+ -1	 18.6	 160.2
+SENSORS END_LIST
+
+LABELS_OTHERS START
+   ListDescription      = SensorLabels
+   ListUnits            = 
+   ListNrColumns        =  260
+   ListNrRows           =  9
+   ListNrTimepts        =  1
+   ListNrBlocks         =  1
+   ListBinary           =  0
+   ListType             =  5
+   ListTrafoType        =  0
+   ListGridType         =  2
+   ListFirstColumn      =  1
+   ListIndexMin         = -1
+   ListIndexMax         = -1
+   ListIndexAbsMax      = -1
+LABELS_OTHERS END
+
+LABELS_OTHERS START_LIST	# Do not edit!
+A2
+X1
+X2
+H+
+H-
+V+
+EKG+
+V-
+EKG-
+LABELS_OTHERS END_LIST
+
