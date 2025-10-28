@@ -1,0 +1,1 @@
+The files DA00100E.* are licensed under CC0. They contain M1 and M2 electrodes and Chinese annotations encoded in GBK. The EDF file was converted using EDFbrowser.
