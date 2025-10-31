@@ -46,7 +46,7 @@ DATA_PARAMETERS END
 DEVICE_PARAMETERS_MAG1 START
    DataUnit             = fT
    NumChanThisGroup     =  148
-   NumSensorsThisGroup  =  164
+   NumSensorsThisGroup  =  148
    CommonOffset         =  0
    NumRefChannels       =  0
    CommonScale          =  1

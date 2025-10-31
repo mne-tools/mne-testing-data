@@ -37,7 +37,7 @@ DATA_PARAMETERS END
 DEVICE_PARAMETERS_MAG1 START
    DataUnit             = fT
    NumChanThisGroup     =  148
-   NumSensorsThisGroup  =  164
+   NumSensorsThisGroup  =  148
    CommonOffset         =  0
    NumRefChannels       =  0
    CommonScale          =  1
@@ -65,7 +65,7 @@ LABELS_MAG1 START
    ListDescription      = SensorLabels
    ListUnits            = 
    ListNrColumns        =  260
-   ListNrRows           =  164
+   ListNrRows           =  148
    ListNrTimepts        =  1
    ListNrBlocks         =  1
    ListBinary           =  0
@@ -227,22 +227,6 @@ A104
 A131
 A140
 A74
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 LABELS_MAG1 END_LIST
 
 GEOMETRY_MAG1 START
@@ -259,7 +243,7 @@ SENSORS_MAG1 START
    ListDescription      = Sensors
    ListUnits            = mm
    ListNrColumns        =  3
-   ListNrRows           =  164
+   ListNrRows           =  148
    ListNrTimepts        =  1
    ListNrBlocks         =  1
    ListBinary           =  0
@@ -421,29 +405,13 @@ SENSORS_MAG1 START_LIST	# Do not edit!
   57.826	 98.296	-162.444
  -114.939	-15.384	-181.803
   91.638	 77.085	-79.021
-  10.21	 0	 158.46
-  10.21	 67.48	 158.46
-  10.21	-67.48	 158.46
-  10.21	 0	 158.46
-  10.21	 67.48	 158.46
-  10.21	-67.48	 158.46
-  10.21	 0	 158.46
-  74.7	 0	 138.593
- -54.28	 0	 178.327
-  74.7	 0	 138.593
- -54.28	 0	 178.327
-  74.7	 0	 138.593
- -54.28	 0	 178.327
-  10.21	 0	 158.46
-  10.21	 0	 158.46
-  10.21	 0	 158.46
 SENSORS_MAG1 END_LIST
 
 NORMALS_MAG1 START
    ListDescription      = Normals
    ListUnits            = 1
    ListNrColumns        =  3
-   ListNrRows           =  164
+   ListNrRows           =  148
    ListNrTimepts        =  1
    ListNrBlocks         =  1
    ListBinary           =  0
@@ -605,22 +573,6 @@ NORMALS_MAG1 START_LIST	# Do not edit!
   0.28861	 0.957121	 0.024277
  -0.987783	-0.140747	-0.067502
   0.575969	 0.793614	 0.195791
-  0.299072	 0	 0.95423
-  0.299072	 0	 0.95423
-  0.299072	 0	 0.95423
-  0.95423	 0	-0.299072
-  0	 1	 0
-  0	 1	 0
-  0	 1	 0
-  0.299072	 0	 0.95423
-  0.299072	 0	 0.95423
-  0.95423	 0	-0.299072
-  0.95423	 0	-0.299072
-  0	 1	 0
-  0	 1	 0
-  0.299072	 0	 0.95423
-  0.95423	 0	-0.299072
-  0	 1	 0
 NORMALS_MAG1 END_LIST
 
 COUPLING_MAG1 START
