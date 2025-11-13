@@ -34,7 +34,7 @@ MaxFilter params: '-regularize off -cal off -ctc ct_sparse.fif -iterate 0 -hpisu
 
 
 test_move_anon_st4s_raw_sss.fif
-Filter is using simplified params and spatiotemporal filtering (tSSS) with a 4 second buffer. MaxFilter has an irregularity in 
+Filter is using simplified params and spatiotemporal filtering (tSSS) with a 4 second buffer. MaxFilter has an irregularity in
 how it processes the last window of data if that buffer is less than the specified duration. Sometimes it will process it
 separately, and sometimes it will lump it onto the previous window. For the 17 sec data, Elekta's tSSS uses the 4s window to
 break the data into 4s, 4s, 4s, 4s, 5s chunks. I.e., it DID lump the tail window into the previous data.
@@ -44,8 +44,8 @@ MaxFilter params: '-regularize off -cal off -ctc off -iterate 0 -hpisubt off -au
 test_move_anon_st10s_raw_sss.fif
 Filter is using simplified params and spatiotemporal filtering (tSSS) with a 10 second buffer (default in MaxFilter v2.2).
 MaxFilter has an irregularity in how it processes the last window of data if that buffer is less than the specified duration as
-noted above. For the 17 sec data, Elekta's tSSS uses the 10s window to break the data into 10s and 7s chunks. I.e., it DID NOT 
-lump the tail window into the previous data.To get around this, this file was cropped to 10s prior to Elekta's tSSS processing. 
+noted above. For the 17 sec data, Elekta's tSSS uses the 10s window to break the data into 10s and 7s chunks. I.e., it DID NOT
+lump the tail window into the previous data.To get around this, this file was cropped to 10s prior to Elekta's tSSS processing.
 MaxFilter params: '-regularize off -cal off -ctc off -iterate 0 -hpisubt off -autobad off -st 10'
 
 
@@ -67,7 +67,7 @@ MaxFilter params: '-regularize off -cal off -ctc off -iterate 0 -hpisubt off -au
 test_move_anon_raw.pos
 MaxFilter was run with these parameters:
 maxfilter -headpos -hp test_move_anon_raw.pos -f test_move_anon_raw.fif -v -autobad off
-The test_move_anon_raw_quat.fif file was deleted. 
+The test_move_anon_raw_quat.fif file was deleted.
 
 
 test_move_anon_raw_subsampled.pos
@@ -113,8 +113,8 @@ test_move_anon_movecomp_regIn_st2_raw_sss.fif
 test_move_anon_hpisubt_raw.fif
 maxfilter -f test_move_anon_raw.fif -o test_move_anon_hpisubt_raw.fif -headpos -ctc off -cal off -v
 
-chpi5_raw.fif 
-Is a part of real MEG measurement with a human subject at MPI-CBS in Leipzig. 
+chpi5_raw.fif
+Is a part of real MEG measurement with a human subject at MPI-CBS in Leipzig.
 The data is artificial because it combines the first two seconds of the real
 measurement with a cropped fraction from 95. to 110. seconds (crop ignores the
 raw.first_samp). The head of the subject moves slightly during this part of the
@@ -129,3 +129,6 @@ output head position file of maxfilter using this command line:
 $Revision: 2.2.15 Neuromag maxfilter Dec 11 2012 14:48:44 $
 
 
+chpi_problematic-info.fif
+Pulled from SFU data where the initial fit is incorrectly rotated about approximately
+colinear points. Licensed under CC0.
