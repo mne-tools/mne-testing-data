@@ -1,0 +1,3 @@
+Files in this directory are derived from OpenNeuro dataset ds006392
+(doi:10.18112/openneuro.ds006392.v1.0.1) and are licensed under CC0
+per the dataset_description.json file.
