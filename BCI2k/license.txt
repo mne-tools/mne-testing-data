@@ -1,0 +1,7 @@
+This dataset was generated using BCI2000 with the SignalGenerator module
+for testing purposes only.
+
+No real subject data is included.
+
+License: CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
