@@ -1,1 +1,3 @@
 The files DA00100E.* are licensed under CC0. They contain M1 and M2 electrodes and Chinese annotations encoded in GBK. The EDF file was converted using EDFbrowser.
+
+The files DA001000.* to DA001003.* are licensed under CC0. They are high-density EEG-1200A V01.00 recordings with extended block layout and contain no patient data (contributed in mne-tools/mne-python#14502).
